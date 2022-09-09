@@ -54,7 +54,15 @@
 
 }
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+    .item-wrap .portfolio img {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    height: auto !important;
+    margin-bottom: 10px;
+}
+}
 
 @media only screen and (max-width:768px) {
 
